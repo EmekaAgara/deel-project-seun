@@ -5,6 +5,7 @@ import PayslipDetails from "./components/PayslipDetails";
 const App = () => (
   <Router>
     <Routes>
+      <Route path="/" element={<Payslips />} />
       <Route path="/payslip" element={<Payslips />} />
       <Route path="/payslip/:id" element={<PayslipDetails />} />
     </Routes>
