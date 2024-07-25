@@ -308,13 +308,13 @@ function Payslips() {
                 <Button size="sm" variant="outline" className="h-7 gap-1">
                   <File className="h-3.5 w-3.5" />
                   <span className="sr-only sm:not-sr-only sm:whitespace-nowrap">
-                    Export invoices
+                    Export Payslips
                   </span>
                 </Button>
                 <Button size="sm" className="h-7 gap-1">
                   <PlusCircle className="h-3.5 w-3.5" />
                   <span className="sr-only sm:not-sr-only sm:whitespace-nowrap">
-                    Add an invoice
+                    Add a payslip
                   </span>
                 </Button>
               </div>
@@ -322,9 +322,9 @@ function Payslips() {
             <TabsContent value="all">
               <Card x-chunk="dashboard-06-chunk-0">
                 <CardHeader>
-                  <CardTitle>Invoices</CardTitle>
+                  <CardTitle>Payslips</CardTitle>
                   <CardDescription>
-                    You can view, manage and export your invoices here.
+                    You can view, manage and export your Payslips here.
                   </CardDescription>
                 </CardHeader>
 
@@ -413,7 +413,7 @@ function Payslips() {
                 <CardFooter>
                   <div className="text-xs text-muted-foreground">
                     Showing <strong>1-10</strong> of <strong>32</strong>{" "}
-                    invoices
+                    payslips
                   </div>
                 </CardFooter>
               </Card>

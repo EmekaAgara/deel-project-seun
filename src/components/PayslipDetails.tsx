@@ -35,7 +35,7 @@ const PayslipDetails = () => {
         <CardTitle> Your Pay Slip {payslip.id}</CardTitle>
       </CardHeader>
       <CardDescription className="pb-4">
-        You can view, manage and export your invoices here.
+        You can view, manage and export your payslips here.
       </CardDescription>
 
       <Card className="w-full max-w-lg p-6 ">
